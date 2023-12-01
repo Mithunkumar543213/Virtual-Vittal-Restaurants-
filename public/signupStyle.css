@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background:url(./loginback.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    height:100vh;
+
+}
+ 
+.heading  {
+    margin-top: 9px;
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+.container{
+    /* display: block; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-self: center; */
+    align-content: center;
+  
+    
+
+}
+
+.mainContant{
+    height: 370px;
+    width: 33%;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 12vh;
+    border-radius: 12px;
+    /* background-color: rgb(209, 210, 209); */
+    box-shadow: -2px -2px 3px 1px rgb(214, 214, 214);
+    
+    
+}
+
+input{
+    border-radius: 10px;
+    border: 1px solid blue;
+    padding: 7px;
+    margin: 5px 0px;
+    width: 20vw;
+    background-color: rgb(241, 242, 242);
+}
+
+.LogIn{
+    color: white;
+    font-size: 42px;
+    margin-bottom: 5vh;
+    padding-top: 10px;
+}
+
+.button{
+    margin-top: 15px;
+    margin-left: 32%;
+    width: 7vw;
+    height: 4.5vh;
+    border-radius: 8px;
+    border: none;
+}
+
+ .button:hover{
+    background-color: rgb(232, 51, 31);
+    height:4.7vh ;
+    width: 7.2vw;
+    font-size: 20px;
+    border: none;
+}
+
+.para{
+    display: inline;
+}
+
+.signup{
+    width:5vw ;
+    margin-left: 10px;
+    background-color: rgb(241, 232, 232);
+
+}
+
+.signup:hover{
+    background-color: rgb(112, 222, 222);
+}
+
+
