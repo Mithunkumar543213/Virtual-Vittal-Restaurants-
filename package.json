@@ -1,0 +1,19 @@
+{
+  "name": "ia-project",
+  "version": "1.0.0",
+  "description": "this is resturent webssite where we can place your order with the help of our website insted of waiter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mithun Kumar Yadav",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.2.0",
+    "ejs": "^3.1.9",
+    "ejs-mate": "^4.0.0",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3",
+    "uuid": "^9.0.1"
+  }
+}
